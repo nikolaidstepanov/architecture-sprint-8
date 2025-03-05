@@ -125,14 +125,9 @@
     {
         "clientId": "reports-api",
         "enabled": true,
-        "publicClient": true,
-        "redirectUris": ["http://localhost:8000/*"],
-        "webOrigins": ["http://localhost:8000"],
-        "directAccessGrantsEnabled": true,
-        "standardFlowEnabled": true,
-        "attributes": {
-          "pkce.code.challenge.method": "S256"
-        }
+        "clientAuthenticatorType": "client-secret",
+        "secret": "oNwoLQdvJAvRcL89SydqCWCe5ry1jMgq",
+        "bearerOnly": true
     }
     ]
   }
